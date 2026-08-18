@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "1786881935198-e44",
+  "createdAt": 1786881935198,
+  "origin": "failed-assert",
+  "expected": "declared consequence",
+  "observed": "no element matched {\"testid\":\"login-form-error\"} — testids present here: acct-seller, acct-partner, acct-client, error-accountType, field-email, field-password, login-submit",
+  "steps": [
+    {
+      "tool": "reticle_act",
+      "anchor": {
+        "kind": "testid",
+        "value": "login-submit",
+        "source": {
+          "file": "src/pages/Login.jsx",
+          "line": 290,
+          "column": 6
+        }
+      },
+      "action": "click"
+    }
+  ]
+}

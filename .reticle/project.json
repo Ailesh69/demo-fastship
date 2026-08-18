@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "learned": {
+    "routes": [
+      "/",
+      "/login",
+      "/signup",
+      "/this-route-does-not-exist"
+    ]
+  },
+  "runs": []
+}
