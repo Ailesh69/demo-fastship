@@ -3,6 +3,7 @@
   "learned": {
     "routes": [
       "/",
+      "/about",
       "/login",
       "/signup",
       "/this-route-does-not-exist"

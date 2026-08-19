@@ -1,0 +1,135 @@
+{
+  "outputDir": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_1",
+  "rawDir": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_1/raw",
+  "reposPath": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_1/repos",
+  "mode": "run-all",
+  "pro": false,
+  "excludePattern": "static_analysis_semgrep_1",
+  "scans": [
+    {
+      "lang": "all",
+      "ruleset": "p/command-injection",
+      "json": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_1/raw/all-command-injection.json",
+      "sarif": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_1/raw/all-command-injection.sarif",
+      "findings": 0,
+      "filesScanned": 118
+    },
+    {
+      "lang": "all",
+      "ruleset": "p/cwe-top-25",
+      "json": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_1/raw/all-cwe-top-25.json",
+      "sarif": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_1/raw/all-cwe-top-25.sarif",
+      "findings": 3,
+      "filesScanned": 176
+    },
+    {
+      "lang": "all",
+      "ruleset": "p/gitleaks",
+      "json": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_1/raw/all-gitleaks.json",
+      "sarif": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_1/raw/all-gitleaks.sarif",
+      "findings": 0,
+      "filesScanned": 176
+    },
+    {
+      "lang": "all",
+      "ruleset": "p/insecure-transport",
+      "json": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_1/raw/all-insecure-transport.json",
+      "sarif": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_1/raw/all-insecure-transport.sarif",
+      "findings": 0,
+      "filesScanned": 118
+    },
+    {
+      "lang": "all",
+      "ruleset": "p/owasp-top-ten",
+      "json": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_1/raw/all-owasp-top-ten.json",
+      "sarif": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_1/raw/all-owasp-top-ten.sarif",
+      "findings": 4,
+      "filesScanned": 176
+    },
+    {
+      "lang": "all",
+      "ruleset": "p/secrets",
+      "json": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_1/raw/all-secrets.json",
+      "sarif": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_1/raw/all-secrets.sarif",
+      "findings": 0,
+      "filesScanned": 176
+    },
+    {
+      "lang": "all",
+      "ruleset": "p/security-audit",
+      "json": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_1/raw/all-security-audit.json",
+      "sarif": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_1/raw/all-security-audit.sarif",
+      "findings": 3,
+      "filesScanned": 176
+    },
+    {
+      "lang": "all",
+      "ruleset": "p/sql-injection",
+      "json": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_1/raw/all-sql-injection.json",
+      "sarif": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_1/raw/all-sql-injection.sarif",
+      "findings": 3,
+      "filesScanned": 118
+    },
+    {
+      "lang": "all",
+      "ruleset": "p/xss",
+      "json": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_1/raw/all-xss.json",
+      "sarif": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_1/raw/all-xss.sarif",
+      "findings": 0,
+      "filesScanned": 118
+    },
+    {
+      "lang": "javascript",
+      "ruleset": "p/javascript",
+      "json": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_1/raw/javascript-javascript.json",
+      "sarif": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_1/raw/javascript-javascript.sarif",
+      "findings": 0,
+      "filesScanned": 57
+    },
+    {
+      "lang": "javascript",
+      "ruleset": "p/nodejs",
+      "json": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_1/raw/javascript-nodejs.json",
+      "sarif": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_1/raw/javascript-nodejs.sarif",
+      "findings": 0,
+      "filesScanned": 57
+    },
+    {
+      "lang": "javascript",
+      "ruleset": "p/react",
+      "json": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_1/raw/javascript-react.json",
+      "sarif": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_1/raw/javascript-react.sarif",
+      "findings": 0,
+      "filesScanned": 57
+    },
+    {
+      "lang": "javascript",
+      "ruleset": "p/typescript",
+      "json": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_1/raw/javascript-typescript.json",
+      "sarif": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_1/raw/javascript-typescript.sarif",
+      "findings": 0,
+      "filesScanned": 57
+    },
+    {
+      "lang": "python",
+      "ruleset": "p/fastapi",
+      "json": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_1/raw/python-fastapi.json",
+      "sarif": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_1/raw/python-fastapi.sarif",
+      "findings": 0,
+      "filesScanned": 61
+    },
+    {
+      "lang": "python",
+      "ruleset": "p/python",
+      "json": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_1/raw/python-python.json",
+      "sarif": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_1/raw/python-python.sarif",
+      "findings": 4,
+      "filesScanned": 61
+    }
+  ],
+  "failed": [],
+  "skipped": [],
+  "alsoShared": [],
+  "unscoped": [],
+  "coveredNothing": []
+}

@@ -1,0 +1,163 @@
+{
+  "outputDir": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_2",
+  "rawDir": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_2/raw",
+  "reposPath": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_2/repos",
+  "mode": "run-all",
+  "pro": true,
+  "excludePattern": "static_analysis_semgrep_2",
+  "scans": [
+    {
+      "lang": "all",
+      "ruleset": "p/command-injection",
+      "json": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_2/raw/all-command-injection.json",
+      "sarif": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_2/raw/all-command-injection.sarif",
+      "findings": 0,
+      "filesScanned": 130
+    },
+    {
+      "lang": "all",
+      "ruleset": "p/cwe-top-25",
+      "json": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_2/raw/all-cwe-top-25.json",
+      "sarif": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_2/raw/all-cwe-top-25.sarif",
+      "findings": 4,
+      "filesScanned": 226
+    },
+    {
+      "lang": "all",
+      "ruleset": "p/gitleaks",
+      "json": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_2/raw/all-gitleaks.json",
+      "sarif": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_2/raw/all-gitleaks.sarif",
+      "findings": 0,
+      "filesScanned": 226
+    },
+    {
+      "lang": "all",
+      "ruleset": "p/insecure-transport",
+      "json": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_2/raw/all-insecure-transport.json",
+      "sarif": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_2/raw/all-insecure-transport.sarif",
+      "findings": 0,
+      "filesScanned": 118
+    },
+    {
+      "lang": "all",
+      "ruleset": "p/owasp-top-ten",
+      "json": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_2/raw/all-owasp-top-ten.json",
+      "sarif": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_2/raw/all-owasp-top-ten.sarif",
+      "findings": 19,
+      "filesScanned": 226
+    },
+    {
+      "lang": "all",
+      "ruleset": "p/secrets",
+      "json": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_2/raw/all-secrets.json",
+      "sarif": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_2/raw/all-secrets.sarif",
+      "findings": 0,
+      "filesScanned": 226
+    },
+    {
+      "lang": "all",
+      "ruleset": "p/security-audit",
+      "json": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_2/raw/all-security-audit.json",
+      "sarif": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_2/raw/all-security-audit.sarif",
+      "findings": 3,
+      "filesScanned": 226
+    },
+    {
+      "lang": "all",
+      "ruleset": "p/sql-injection",
+      "json": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_2/raw/all-sql-injection.json",
+      "sarif": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_2/raw/all-sql-injection.sarif",
+      "findings": 3,
+      "filesScanned": 120
+    },
+    {
+      "lang": "all",
+      "ruleset": "p/xss",
+      "json": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_2/raw/all-xss.json",
+      "sarif": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_2/raw/all-xss.sarif",
+      "findings": 0,
+      "filesScanned": 132
+    },
+    {
+      "lang": "javascript",
+      "ruleset": "p/javascript",
+      "json": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_2/raw/javascript-javascript.json",
+      "sarif": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_2/raw/javascript-javascript.sarif",
+      "findings": 0,
+      "filesScanned": 57
+    },
+    {
+      "lang": "javascript",
+      "ruleset": "p/nodejs",
+      "json": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_2/raw/javascript-nodejs.json",
+      "sarif": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_2/raw/javascript-nodejs.sarif",
+      "findings": 0,
+      "filesScanned": 57
+    },
+    {
+      "lang": "javascript",
+      "ruleset": "p/react",
+      "json": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_2/raw/javascript-react.json",
+      "sarif": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_2/raw/javascript-react.sarif",
+      "findings": 0,
+      "filesScanned": 57
+    },
+    {
+      "lang": "javascript",
+      "ruleset": "p/typescript",
+      "json": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_2/raw/javascript-typescript.json",
+      "sarif": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_2/raw/javascript-typescript.sarif",
+      "findings": 0,
+      "filesScanned": 57
+    },
+    {
+      "lang": "python",
+      "ruleset": "p/fastapi",
+      "json": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_2/raw/python-fastapi.json",
+      "sarif": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_2/raw/python-fastapi.sarif",
+      "findings": 0,
+      "filesScanned": 61
+    },
+    {
+      "lang": "python",
+      "ruleset": "p/python",
+      "json": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_2/raw/python-python.json",
+      "sarif": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_2/raw/python-python.sarif",
+      "findings": 4,
+      "filesScanned": 61
+    },
+    {
+      "lang": "all",
+      "ruleset": "https://github.com/trailofbits/semgrep-rules",
+      "json": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_2/raw/all-trailofbits-semgrep-rules.json",
+      "sarif": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_2/raw/all-trailofbits-semgrep-rules.sarif",
+      "findings": 1,
+      "filesScanned": 226,
+      "note": "re-run manually with --pro after quarantining unparseable rule files; 0 upstream rule(s) still fail to parse and were skipped by semgrep"
+    },
+    {
+      "lang": "all",
+      "ruleset": "https://github.com/elttam/semgrep-rules",
+      "json": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_2/raw/all-elttam-semgrep-rules.json",
+      "sarif": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_2/raw/all-elttam-semgrep-rules.sarif",
+      "findings": 0,
+      "filesScanned": 226,
+      "note": "re-run manually with --pro after quarantining unparseable rule files; 12 upstream rule(s) still fail to parse and were skipped by semgrep"
+    },
+    {
+      "lang": "all",
+      "ruleset": "https://github.com/apiiro/malicious-code-ruleset",
+      "json": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_2/raw/all-apiiro-malicious-code-ruleset.json",
+      "sarif": "/Users/ailesh/Desktop/FastShip/static_analysis_semgrep_2/raw/all-apiiro-malicious-code-ruleset.sarif",
+      "findings": 3,
+      "filesScanned": 118,
+      "note": "re-run manually with --pro after quarantining unparseable rule files; 4 upstream rule(s) still fail to parse and were skipped by semgrep"
+    }
+  ],
+  "failed": [],
+  "skipped": [],
+  "alsoShared": [],
+  "unscoped": [],
+  "coveredNothing": [],
+  "rerunNote": "3 third-party repos were re-run outside run-scans.sh after moving non-rule YAML into quarantine/; the runner discards any scan whose exit code is non-zero, and these exit non-zero purely because of unparseable upstream rules."
+}

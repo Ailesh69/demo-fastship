@@ -1,0 +1,23 @@
+{
+  "baseline": [
+    "p/security-audit",
+    "p/secrets",
+    "p/gitleaks",
+    "p/owasp-top-ten",
+    "p/cwe-top-25",
+    "p/sql-injection",
+    "p/xss",
+    "p/command-injection",
+    "p/insecure-transport"
+  ],
+  "python": [
+    "p/python",
+    "p/fastapi"
+  ],
+  "javascript": [
+    "p/javascript",
+    "p/typescript",
+    "p/react",
+    "p/nodejs"
+  ]
+}
